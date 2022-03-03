@@ -4,7 +4,7 @@ import ComponentD from "./ComponentD";
 import { UserProvider } from "./context-api/UserContext";
 
 function ComponentB() {
-  const [name, setname] = useState("chaya");
+  const [name, setname] = useState("Abhi");
   return (
     <div>
       <UserProvider value={name}>
